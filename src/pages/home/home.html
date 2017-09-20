@@ -1,14 +1,48 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Kitty Forum
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <ion-card>
+    <img src="assets/images/cat1.jpg"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        This is a cute cat
+      </ion-card-title>
+      <p>This is the cutest cat in the world.</p>
+    </ion-card-content>
+
+    <ion-row>
+
+      <ion-col>
+        <button ion-button clear icon-start>
+          <ion-icon name="star"></ion-icon>
+          Fav
+        </button>
+      </ion-col>
+
+      <ion-col>
+        <button ion-button clear icon-start>
+          <ion-icon name="share-alt"></ion-icon>
+          Share
+        </button>
+      </ion-col>
+
+      <ion-col>
+        <button ion-button clear icon-start>
+          <ion-icon name="thumbs-up"></ion-icon>
+          Like
+        </button>
+      </ion-col>
+
+    </ion-row>
+
+  </ion-card>
+
 </ion-content>
